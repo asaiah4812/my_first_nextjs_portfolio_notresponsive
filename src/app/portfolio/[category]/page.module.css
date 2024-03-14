@@ -1,0 +1,38 @@
+.catTitle{
+    color: azure;
+}
+
+.item{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.imgContainer{
+    flex: 1;
+    height: 400px;
+    position: relative;
+    object-fit: contain;
+}
+
+.img{
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.img:hover{
+    opacity: 100%;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+} 

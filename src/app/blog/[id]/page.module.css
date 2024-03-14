@@ -1,0 +1,22 @@
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imageContainer{
+    flex: 1;
+    height: 300px;
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.content {
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #999;
+    text-align: justify;
+}
